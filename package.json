@@ -1,0 +1,19 @@
+{
+  "name": "typescript-template",
+  "version": "0.1.0",
+  "main": "src/app.ts",
+  "type": "module",
+  "repository": "https://github.com/ciarandg/typescript-template",
+  "author": "Ciaran De Groot <ciaran.deg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --esm src/app.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
